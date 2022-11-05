@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <div className="box has-background-link">I'm in a box.</div>
       </header>
     </div>
   );
