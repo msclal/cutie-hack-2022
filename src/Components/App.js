@@ -1,76 +1,103 @@
-/*import '../App.css';
-
-function App() {
-  return (
-    <div>
-      <section class="hero is-success is-large">
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <p class="title is-1">
-              R'PARTS
-            </p>
-            <p class="subtitle is-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="hero is-large is-info">
-        <div class="hero-body">
-          <p class="title">
-            Large hero
-          </p>
-          <p class="subtitle">
-            Large subtitle
-          </p>
-        </div>
-      </section>
-    </div>
-  );
-}
-
-export default App;*/
-
 import '../App.css';
 
 function App() {
   return (
     <div>
-      <section class="hero is-success is-large is-desktop">
+      <section class="hero is-success is-desktop">
         <div style={{
           backgroundImage: `url("https://admissions.ucr.edu/sites/default/files/styles/article_header_l/public/2020-11/uc-riverside_ucr-campus-tours-four_ways_blog.jpg?h=c118c95a&itok=1715tv0u")`,
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover'
+          backgroundSize: 'cover',
+          width: "1600px",
+          height: "700px"
         }}>
-          <div class="hero-body">
-            <div class="container has-text-centered p-0">
-              <img
-                src={require("../small.PNG")}
-                alt="logo"
-                style={{ width: "490px", height: "490px" }}
-              />
-              <p class="subtitle is-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
+          <div class="container has-text-centered">
+            <img
+              src={require("../small.PNG")}
+              alt="logo"
+              style={{ width: "490px", height: "490px" }}
+            />
+            <button class="button is-hovered is-medium is-fullwidth is-rounded is-warning">start shopping</button>
           </div>
         </div>
       </section>
-      <section class="hero is-large is-info">
+
+
+      <section class="hero is-medium has-background-white-ter">
         <div class="hero-body">
-          <p class="title">
-            Large hero
-          </p>
-          <p class="subtitle">
-            Large subtitle
-          </p>
+          <div class="has-text-centered">
+            <p class="title is-2">community | sustainability | knowledge</p>
+            <p></p>
+            <p class="subtitle is-5">R'Parts is a sustainable solution to ongoing chip and hardware shortages. Our goal is to decrease student fees and assist in those who are aiming to learn, grow, and push limits.</p>
+            <p></p>
+          </div>
+
+          <section class="is-relative section py-20">
+            <div class="container">
+              <div class="columns is-multiline">
+                <div class="column is-6">
+                  <div class="box p-6">
+                    <div class="columns">
+                      <div class="column is-4 mb-4 mb-3-desktop">
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person1.png")} alt="logo" style={{ width: "200px", height: "200px" }} />
+                      </div>
+                      <div class="column is-8">
+                        <h3 class="is-size-4 has-text-weight-semibold">Esther Howard</h3>
+                        <p class="mb-4 has-text-grey-dark">Computer Science Student</p>
+                        <p class="has-text-grey-dark">Saved a lot of money and time searching for my Raspberry Pi. Everyone needs to know R'PARTS! Broke college student in STEM necessity. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box p-6">
+                    <div class="columns is-multiline">
+                      <div class="column is-4 mb-4 mb-3-desktop">
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person2.png")} alt="logo" style={{ width: "490px", height: "200px" }} />
+                      </div>
+                      <div class="column is-8">
+                        <h3 class="is-size-4 has-text-weight-semibold">Cameron Williamson</h3>
+                        <p class="mb-4 has-text-grey-dark">Embedded Systems Professor</p>
+                        <p class="has-text-grey-dark">Great resource for my undergraduate and graduate students. Always had trouble trying to direct them to various marketplaces and disucssion boards to get the equipment they need to succeed.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box p-6">
+                    <div class="columns is-multiline">
+                      <div class="column is-4 mb-4 mb-3-desktop">
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person3.png")} alt="logo" style={{ width: "400px", height: "200px" }} />
+                      </div>
+                      <div class="column is-8">
+                        <h3 class="is-size-4 has-text-weight-semibold">Brian Turby</h3>
+                        <p class="mb-4 has-text-grey-dark">Computer Engineer Alumni</p>
+                        <p class="has-text-grey-dark">It was my go-to resource all throughout my college career. Urged all my friends and siblings to use this. 10/10. Absolute need. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box p-6">
+                    <div class="columns is-multiline">
+                      <div class="column is-4 mb-4 mb-3-desktop">
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person4.png")} alt="logo" style={{ width: "490px", height: "200px" }} />
+                      </div>
+                      <div class="column is-8">
+                        <h3 class="is-size-4 has-text-weight-semibold">Zack Moon</h3>
+                        <p class="mb-4 has-text-grey-dark">Systems Researcher</p>
+                        <p class="has-text-grey-dark">Great resource for research purposes. Cheap and sustainable. This is it right here everyone!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
         </div>
       </section>
-
-
-
-
-
 
     </div>
   );
