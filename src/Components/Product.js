@@ -1,5 +1,4 @@
 import React from 'react'
-import RaspberryPi from '../Images/Raspberry_Pi_4.jpeg'
 import Arduino from '../Images/ArduinoUno.jpeg'
 import { FaRegHeart } from 'react-icons/fa';
 import { BsCartPlus } from 'react-icons/bs'
@@ -34,7 +33,7 @@ function Product() {
                 <div class='column'>
                   <p class='title is-2 has-text-black p-2'>Arduino Uno Project Starter Kit</p>
                   <p class='subtitle has-text-black p-2'>- Arduino UNO is a low-cost, flexible, and easy-to-use programmable open-source microcontroller board that can be integrated into a variety of electronic projects.</p>
-                  <p class='title is-3 has-text-black p-2'>Expect to use this in: </p>
+                  <p class='title is-4 has-text-black p-2'>Expect to use this in </p>
                   <p class='subtitle has-text-black pl-4'>- CS120B</p>
                   <p class='subtitle has-text-black pl-4'>- CS122A</p>
                   <p class='subtitle has-text-black pl-4'>- BIEN010</p>
@@ -59,8 +58,8 @@ function Product() {
                     </p>
                   </div>
 
-                  <p class='title is-3 has-text-black p-2'>
-                    Sold by: 
+                  <p class='title is-4 has-text-black p-2'>
+                    Sold by 
                     <figure class='image is-96x96'>
                       <img src={Scotty} alt='Scotty the Bear' />
                     </figure>
