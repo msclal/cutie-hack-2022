@@ -13,7 +13,7 @@ function App() {
         }}>
           <div class="container has-text-centered">
             <img
-              src={require("../small.PNG")}
+              src={require("../Images/small.PNG")}
               alt="logo"
               style={{ width: "490px", height: "490px" }}
             />
@@ -39,7 +39,7 @@ function App() {
                   <div class="box p-6">
                     <div class="columns">
                       <div class="column is-4 mb-4 mb-3-desktop">
-                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person1.png")} alt="logo" style={{ width: "200px", height: "200px" }} />
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("../PeoplePics/Person1.png")} alt="logo" style={{ width: "200px", height: "200px" }} />
                       </div>
                       <div class="column is-8">
                         <h3 class="is-size-4 has-text-weight-semibold">Esther Howard</h3>
@@ -53,7 +53,7 @@ function App() {
                   <div class="box p-6">
                     <div class="columns is-multiline">
                       <div class="column is-4 mb-4 mb-3-desktop">
-                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person2.png")} alt="logo" style={{ width: "490px", height: "200px" }} />
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("../PeoplePics/Person2.png")} alt="logo" style={{ width: "490px", height: "200px" }} />
                       </div>
                       <div class="column is-8">
                         <h3 class="is-size-4 has-text-weight-semibold">Cameron Williamson</h3>
@@ -67,7 +67,7 @@ function App() {
                   <div class="box p-6">
                     <div class="columns is-multiline">
                       <div class="column is-4 mb-4 mb-3-desktop">
-                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person3.png")} alt="logo" style={{ width: "400px", height: "200px" }} />
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("../PeoplePics/Person3.png")} alt="logo" style={{ width: "400px", height: "200px" }} />
                       </div>
                       <div class="column is-8">
                         <h3 class="is-size-4 has-text-weight-semibold">Brian Turby</h3>
@@ -81,7 +81,7 @@ function App() {
                   <div class="box p-6">
                     <div class="columns is-multiline">
                       <div class="column is-4 mb-4 mb-3-desktop">
-                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("/Users/bobbylerias/Downloads/CutieHack 2022/cutie-hack-2022/src/PeoplePics/Person4.png")} alt="logo" style={{ width: "490px", height: "200px" }} />
+                        <img class="image is-fullwidth is-cover is-rounded" style="height: 50px;" src={require("../PeoplePics/Person4.png")} alt="logo" style={{ width: "490px", height: "200px" }} />
                       </div>
                       <div class="column is-8">
                         <h3 class="is-size-4 has-text-weight-semibold">Zack Moon</h3>
