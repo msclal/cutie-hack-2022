@@ -8,6 +8,8 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 
+import ShopComponent from "../ShopComponent";
+
 const Navbar = () => {
   return (
     <>
@@ -21,7 +23,7 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/about" activeStyle>
+          <NavLink to="/ShopComponent" activeStyle>
             Shop Now
           </NavLink>
           <NavLink to="/services" activeStyle>

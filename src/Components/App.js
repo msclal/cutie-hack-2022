@@ -16,8 +16,8 @@ function App() {
           {/* <Route path="/" exact component={Home} /> */}
           <Route path="/about" element={About} />
           <Route path="/classes" component={Classes} />
-          <Route path="/ShopComponent" component={ShopComponent} />
-          <Route path="/Product" component={Product} />
+          <Route path="/ShopComponent" element={<ShopComponent />} />
+          <Route path="/Product" element={<Product />} />
         </Routes>
         {/* <ShopComponent /> */}
 
@@ -27,7 +27,7 @@ function App() {
               backgroundImage: `url("https://admissions.ucr.edu/sites/default/files/styles/article_header_l/public/2020-11/uc-riverside_ucr-campus-tours-four_ways_blog.jpg?h=c118c95a&itok=1715tv0u")`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              width: "1600px",
+              width: "1700px",
               height: "700px",
             }}
           >
@@ -181,8 +181,8 @@ function App() {
           </div>
         </section>
       </Router>
-      <ShopComponent id="ShopComponent"></ShopComponent>
-      <Product id="Product"></Product>
+      {/* <ShopComponent id="ShopComponent"></ShopComponent> */}
+      {/* <Product id="Product"></Product> */}
     </div>
   );
 }
